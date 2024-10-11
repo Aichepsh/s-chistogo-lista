@@ -4,7 +4,7 @@ body {
   width: 360px;
 }
 
-h1,
+body, h1,
 h2,
 h3,
 h4,
@@ -238,13 +238,6 @@ blockquote {
   overflow-wrap: break-word;
 }
 
-.card__text {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  height: auto;
-}
-
 .card__title {
   font-size: 22px;
   font-family: "EB Garamond";
@@ -258,4 +251,8 @@ blockquote {
   font-weight: 400;
   line-height: 21.6px;
   overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: auto;
 }
