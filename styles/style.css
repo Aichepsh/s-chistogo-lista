@@ -19,6 +19,11 @@ blockquote {
   padding: 0;
 }
 
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: black;
+  width: 360px;
 }
 .header {
   height: 132px;
