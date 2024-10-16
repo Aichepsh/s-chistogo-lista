@@ -20,7 +20,6 @@ blockquote {
 }
 body {
   background-color: black;
-  box-sizing: border-box;
 }
 
 .content-section {
@@ -30,7 +29,6 @@ body {
 }
 
 .header {
-  margin: 0 auto;
   height: 132px;
   padding: 24px 20px;
   display: flex;
