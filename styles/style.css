@@ -29,7 +29,6 @@ body {
 }
 
 .header {
-  height: 132px;
   padding: 24px 20px;
   display: flex;
   justify-content: space-between;
@@ -52,6 +51,7 @@ body {
   font-size: 72px;
   line-height: 72px;
 }
+
 .text-center {
   text-align: center;
 }
@@ -79,6 +79,12 @@ body {
 
 .intro__heading-title {
   width: 203px;
+  color: #cccccc;
+  font-size: 10px;
+  font-family: "Inter", "Arial";
+  font-weight: 100;
+  line-height: 19.2px;
+  overflow-wrap: break-word;
 }
 
 .intro__main-text {
@@ -105,7 +111,6 @@ body {
   flex-direction: column;
   font-family: "EB Garamond", "Arial";
   width: 320px;
-  height: 31.5px;
   font-size: 28px;
   font-weight: 500;
   line-height: 32.2px;
@@ -120,7 +125,7 @@ body {
   padding: 40px 20px 60px 20px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 32px;
   height: auto;
 }
 
@@ -187,7 +192,6 @@ body {
 }
 
 .header__menu {
-  height: 84px;
   width: 75px;
   display: flex;
   flex-direction: row;
@@ -196,6 +200,10 @@ body {
 .header__menu-list {
   list-style-type: none;
   font-family: "Inter", "Arial";
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .header__menu-item {
@@ -232,6 +240,7 @@ body {
   flex-direction: column;
   gap: 8px;
   height: auto;
+  border-radius: 50%;
 }
 
 .card__author-photo {
@@ -249,7 +258,7 @@ body {
 
 .card__title {
   font-size: 22px;
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", "Arial";
   font-weight: 500;
   line-height: 29.7px;
 }
